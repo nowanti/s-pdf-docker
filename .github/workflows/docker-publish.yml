@@ -6,9 +6,9 @@ on:
       - '*'
 
 env:
-  APP_NAME: s-pdf
+  APP_NAME: 's-pdf'
   DOCKERFILE: './Dockerfile'
-  PLATFORMS: linux/amd64,linux/arm64
+  PLATFORMS: 'linux/amd64,linux/arm64'
 
   GITHUB_CR: 'ghcr.io'
   ALIYUN_CR: 'registry.cn-shanghai.aliyuncs.com'
