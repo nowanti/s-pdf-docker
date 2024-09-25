@@ -57,7 +57,6 @@ jobs:
           context: .
           platforms: ${{ env.PLATFORMS }}
           push: true
-          dockerfile: ${{ env.DOCKERFILE }}
           build-args: |
             APP_NAME=${{ env.APP_NAME }}
             APP_VERSION=${{ env.APP_VERSION }}
